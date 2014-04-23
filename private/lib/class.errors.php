@@ -7,7 +7,8 @@ define('PHX_ERROR_LEVEL_FATAL',	3);
 
 class ErrorHandler {
 
-	private $errStack, $minOutputLevel;
+	private $minOutputLevel = 0;
+	private $errStack = array();
 
 	public function __construct() {
 		$this->minOutputLevel = ((PHX_TYPE == "production") ? 3 : 0);
