@@ -29,7 +29,7 @@ class ErrorHandler {
 		}
 	}
 
-	public function fatal($msg) {
+	public function throwFatalError($msg) {
 		$this->pushToStack($msg, 100, PHX_ERROR_LEVEL_FATAL);
 		header('Content-Type: text/plain');
 		header('HTTP/1.1 500 Internal Server Error');
