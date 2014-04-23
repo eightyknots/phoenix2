@@ -16,6 +16,10 @@
 define('PHX_VERSION',		'0.0.1');
 define('PHX_PTP',			'../private/');
 define('PHX_PTA',			'./assets/');
+define('PHX_PTL',			PHX_PTP.'lib/');
+define('PHX_HTML',			PHX_PHP.'html/');
+define('PHX_JS',			PHX_PTP.'js/');
+define('PHX_CSS',			PHX_PTP.'css/');
 
 // If configuration file doesn't exist, notify the user
 if (!file_exists(PHX_PTP.'config.json')) {
