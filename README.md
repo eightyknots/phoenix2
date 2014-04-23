@@ -8,9 +8,9 @@ The best way to to get Phoenix is to clone this git repository:
 	git clone git@github.com:yectep/phoenix2.git
 
 ## Configuration File
-The main configuration file for Phoenix is located in `./private/config.php`. **By default this is not created** and you should initialize the project by tuning the default configuration file and saving that as your config.php.
+The main configuration file for Phoenix is located in `./private/config.json`. **By default this is not created** and you should initialize the project by tuning the default configuration file and saving that as your config.php.
 
-	cd ./private/ && cp ./config.default ./config.php
+	cd ./private/ && cp ./config.json.default ./config.json
 	vi ./config.php
 
 The app will not load without the configuration file.
